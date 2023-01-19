@@ -15,10 +15,7 @@ int main(void)
                         printf("%c" , name[i] -32);
                 
 		}
-		else if (name[i] == 32)
-		{
-			printf("_");
-		}	
+		
                 else 
                 {
                         printf("%c", name[i]);
