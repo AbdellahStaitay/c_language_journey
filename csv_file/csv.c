@@ -13,6 +13,7 @@ int main(void)
 	scanf("%s", number);
 
 	fprintf(file,"%s,%s\n",name,number);
+	fclose(file);
 
 
 }
