@@ -4,7 +4,10 @@ long long int Fibonacci(long x);
 
 int main(void)
 {
-    for (int i = 0; i <= 40; i++)
+    int n;
+    printf("Enter how many fibonacci numbers you wnt to see starting from 0 :");
+    scanf("%d", &n);
+    for (int i = 0; i <= n; i++)
     {
         printf("%lld, ", Fibonacci(i));
     }
